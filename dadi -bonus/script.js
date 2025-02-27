@@ -8,7 +8,7 @@ bonus Invece di generare il numero random per l'utente, chiedilo con un prompt!
 let computer                                    // dichiaro le variabili in cui ospiero il numero casuale
 let player                                      // dichiaro la variabile in cui ospitero il numero dell' utente 
 
-computer = Math.random () *(6 - 1 ) +1                              // creo il tiro casuale per il banco
+computer = Math.random () *(6 - 1 +1 ) +1                              // creo il tiro casuale per il banco
 computer = parseInt(computer)                                       // lo trasformo in numeri senza la virgola
 console.log(`Il banco ha tirato ${computer}`)                       // dichiaro all ' utente uanto ha fatto il banco 
 
