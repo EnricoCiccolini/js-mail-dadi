@@ -18,8 +18,10 @@ player = parseInt(player)                                            // controll
 
 if(isNaN(player)) console.log(`il numero inserito non è valido` )      // se il valore è nan dico che il valore non è valido 
     else{                                                               // se è valido continuo con il programma 
+        if(player > 6 )console.log(`il numero inserito non è valido` ) 
+            else{
         if(computer > player) console.log(` il banco ha vinto `)              // confronto i due risultati se a secodso di chi ha fatto il tiro maggiore inoltro il risultato 
         else if (player > computer) console.log(` il giocatore ha vinto `)
         else console.log(` PAREGGIO `)                                         // contemplo anche il pareggio nelle ipotesi
-
+    }
 }
